@@ -172,3 +172,12 @@ In this task, each model provides unique capabilities and expertise. These model
 - **anthropic.claude-3-opus - Opus** is an extremely intelligent model with reliable performance on complex tasks. It can navigate open-ended prompts and unseen scenarios with remarkable fluency and human-like understanding. Use Opus to automate tasks and accelerate research and development across a wide range of use cases and industries.
 - **mistral.mistral-7b-instruct - Mistral** is a high-performance large language model optimized for high-volume, low-latency language-based tasks. Common use cases for Mistral are text summarization, structuring, question answering, and code completion
 - **meta.llama3-1-8b-instruct - Llama 3.1 8B** is best suited for limited computing power and resources. The model excels at text summarization, text classification, sentiment analysis, and language translation that require low-latency inference.
+
+### Check the Chatbot's response
+1. Open the chatbot website. If you are not logged in, use the credentials you got earlier to log in. The website is displayed as follows:
+2. Ask any question by typing in the **Query** text box and click the **Ask Question** button. You can try with a sample question from the table on the right.
+3. Below are some sample questions and answers. You can try with other LLMs and compare the results.
+- Test with **Claude 3 Haiku** model, question: ```What is the distance between Earth and Moon?```
+![5.1.Test1](/images/5.GeneralChatWithMultipleLLMs/5.1.Test1.png)
+- Test with **Llama 3.1 Instruct 8B** model, question: ```Tell me a story around a cat and mouse.```
+![5.2.Test2](/images/5.GeneralChatWithMultipleLLMs/5.2.Test2.png)

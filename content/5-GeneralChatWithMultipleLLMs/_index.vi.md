@@ -171,3 +171,12 @@ Trong nhiệm vụ này, mỗi mô hình cung cấp các chức năng và chuyê
 - **anthropic.claude-3-opus - Opus** là một mô hình cực kỳ thông minh với hiệu suất đáng tin cậy trên các tác vụ phức tạp. Nó có thể điều hướng các lời nhắc mở và các tình huống chưa từng thấy với sự trôi chảy đáng kể và khả năng hiểu biết giống như con người. Sử dụng Opus để tự động hóa các tác vụ và đẩy nhanh quá trình nghiên cứu và phát triển trên nhiều trường hợp sử dụng và ngành công nghiệp khác nhau.
 - **mistral.mistral-7b-instruct - Mistral** là một mô hình ngôn ngữ lớn hiệu quả cao được tối ưu hóa cho các tác vụ dựa trên ngôn ngữ có khối lượng lớn, độ trễ thấp. Các trường hợp sử dụng phổ biến cho Mistral là tóm tắt văn bản, cấu trúc hóa, trả lời câu hỏi và hoàn thành mã
 - **meta.llama3-1-8b-instruct - Llama 3.1 8B** phù hợp nhất với năng lực tính toán và tài nguyên hạn chế. Mô hình này vượt trội trong việc tóm tắt văn bản, phân loại văn bản, phân tích tình cảm và dịch ngôn ngữ đòi hỏi suy luận độ trễ thấp.
+
+### Kiểm tra kết quả trả lời của Chatbot
+1. Mở trang web chatbot. Nếu bạn chưa đăng nhập, hãy sử dụng thông tin đăng nhập mà bạn đã lấy trước đó để đăng nhập. Trang web được hiển thị như sau:
+2. Đặt bất kỳ câu hỏi nào bằng cách nhập vào hộp văn bản **Query** và nhấp vào nút **Ask Question**. Bạn có thể thử với một câu hỏi mẫu từ bảng bên phải.
+3. Dưới đây một số câu hỏi mẫu và câu trả lời. Bạn có thể thử với các LLM khác và so sánh kết quả.
+- Thử nghiệm với mô hình **Claude 3 Haiku**, câu hỏi: ```What is the distance between Earth and Moon?```
+![5.1.Test1](/images/5.GeneralChatWithMultipleLLMs/5.1.Test1.png)
+- Thử nghiệm với mô hình **Llama 3.1 Instruct 8B**, câu hỏi: ```Tell me a story around a cat and mouse.```
+![5.2.Test2](/images/5.GeneralChatWithMultipleLLMs/5.2.Test2.png)

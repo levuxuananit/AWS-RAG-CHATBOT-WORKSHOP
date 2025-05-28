@@ -17,7 +17,7 @@ AWS CloudFormation templates are used to set up resources in the AWS Region you 
 5. Select the template you just downloaded, and then select **Next**.
 ![2.3-CreateStack](/images/2.LaunchVSCAndSetUpTheEnvironment/2.3-CreateStack.png)
 6. Name the stack ```chatbot-startup-stack```.
-7. 7. Leave the other values ​​as they are and select **Next**.
+7.Leave the other values ​​as they are and select **Next**.
 ![2.4_ProvideStackName](/images/2.LaunchVSCAndSetUpTheEnvironment/2.4-ProvideStackName.png)
 8. For **Stack Configuration Options**, select the I confirm... option, then select **Next**.
 ![2.5-TickAllow](/images/2.LaunchVSCAndSetUpTheEnvironment/2.5-TickAllow.png)
