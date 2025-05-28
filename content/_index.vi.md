@@ -4,8 +4,7 @@ date :  "`r Sys.Date()`"
 weight : 1 
 chapter : false
 ---
-### Giới thiệu hội thảo: Chatbot PDF được cá nhân hóa với Amazon Bedrock
-
+# Chatbot PDF được cá nhân hóa với Amazon Bedrock 
 Chào mừng đến với hội thảo Chatbot PDF được cá nhân hóa với Amazon Bedrock! Trong buổi thực hành này, bạn sẽ xây dựng một chatbot thông minh, hỗ trợ AI có thể hiểu và trả lời các câu hỏi của người dùng dựa trên các tài liệu mà họ tự tải lên, chẳng hạn như PDF, CSV và tệp văn bản.
 
 Giải pháp tận dụng kiến ​​trúc không cần máy chủ, có thể mở rộng được hỗ trợ bởi Amazon Bedrock, tích hợp các mô hình ngôn ngữ lớn hàng đầu, chẳng hạn như Claude 3, Mistral và Llama, với các kỹ thuật Tăng cường truy xuất (RAG). Bạn sẽ sử dụng AWS Lambda để chạy các chức năng cốt lõi để phân tích cú pháp tài liệu, truy xuất kiến ​​thức và phản hồi chatbot. Kiến thức được lưu trữ và truy vấn an toàn từ Amazon S3, OpenSearch và Cơ sở kiến ​​thức tùy chỉnh, nâng cao khả năng cung cấp các câu trả lời có liên quan và nhận biết tài liệu của chatbot.

@@ -4,7 +4,7 @@ date :  "`r Sys.Date()`"
 weight : 1 
 chapter : false
 ---
-### Workshop Introduction: Personalized PDF Chatbots with Amazon Bedrock
+# Personalized PDF Chatbots with Amazon Bedrock
 
 Welcome to the Personalized PDF Chatbots with Amazon Bedrock workshop! In this hands-on session, you will build an intelligent, AI-powered chatbot that can understand and answer user questions based on documents they upload themselves, such as PDFs, CSVs, and text files.
 
