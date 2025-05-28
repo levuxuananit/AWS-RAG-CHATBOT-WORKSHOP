@@ -22,10 +22,6 @@ echo "S3 bucket name: $S3BucketName"
 - **CFNStackName**: Referenced after interacting with resources provided as part of the application deployment.
 - **S3BucketName**: Used throughout the workshop to store various data sources and knowledge bases required by the application. Backend services will interact with the contents of this S3 bucket to retrieve and process information required for the application to function. Ensuring that the S3BucketName environment variable is set correctly will allow workshop tasks to seamlessly access and use the required data stored in this central location.
 
-{{%notice note%}}
-Note that if your account has multiple stacks, change **Stacks[0]** to **Stacks[i]** with the corresponding **stack number i**.
-{{%/notice%}}
-
 2. To download the source code for this workshop, run the following command:
 ```bash
 cd ~/environment

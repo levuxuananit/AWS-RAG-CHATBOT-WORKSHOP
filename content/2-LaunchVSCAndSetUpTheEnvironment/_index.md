@@ -2,7 +2,7 @@
 title : "Launch VSC on AWS and Set Up the Environment"
 date :  "`r Sys.Date()`" 
 weight : 2 
-chapter : alse
+chapter : false
 pre : " <b> 2. </b> "
 ---
 ### Launch a workshop using a CloudFormation template
