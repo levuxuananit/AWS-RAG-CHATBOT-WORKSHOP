@@ -10,9 +10,9 @@ pre : " <b> 6. </b> "
 
 Amazon Bedrock Knowledge Bases rely on two key components to enable efficient retrieval of relevant information: **embeddings** and **vector repositories** . These components work together to transform textual data into a searchable format and retrieve it quickly based on semantic similarity.
 
--**Embeddings** are digital representations of text that capture semantic meaning. In Amazon Bedrock, embedding models such as Amazon Titan Embeddings or Cohere Embed convert text from your documents into dense vectors. This process enables efficient comparison and retrieval of semantically similar content, forming the foundation for a knowledge base’s understanding of your data.
+- **Embeddings** are digital representations of text that capture semantic meaning. In Amazon Bedrock, embedding models such as Amazon Titan Embeddings or Cohere Embed convert text from your documents into dense vectors. This process enables efficient comparison and retrieval of semantically similar content, forming the foundation for a knowledge base’s understanding of your data.
 
--**Vector data stores** are specialized databases designed to efficiently index and query these vector embeddings. Amazon Bedrock offers options such as Amazon-managed Serverless OpenSearch or custom solutions such as Amazon Aurora PostgreSQL with pgvector. These data stores enable fast similarity searches, allowing systems to quickly identify and retrieve the most relevant information in response to queries, thereby improving the performance of Retrieval Augmented Generation (RAG) workflows.
+- **Vector data stores** are specialized databases designed to efficiently index and query these vector embeddings. Amazon Bedrock offers options such as Amazon-managed Serverless OpenSearch or custom solutions such as Amazon Aurora PostgreSQL with pgvector. These data stores enable fast similarity searches, allowing systems to quickly identify and retrieve the most relevant information in response to queries, thereby improving the performance of Retrieval Augmented Generation (RAG) workflows.
 
 ### Features and Benefits
 Features and Benefits Include:

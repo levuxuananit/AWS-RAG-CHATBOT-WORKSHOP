@@ -18,7 +18,7 @@ pre : " <b> 6.1 </b> "
 7. Select Amazon S3 as the data source.
 8. Select **Next**.
 9. Select **Browse S3**.
-![6.3-SelectS3](/6.RAGChatWithBedrockKnowledgeBases/6.3-SelectS3.png)
+![6.3-SelectS3](/images/6.RAGChatWithBedrockKnowledgeBases/6.3-SelectS3.png)
 10. Select the ```sample-documents``` folder.
 12. Leave the default sharding configuration.
 13. Select **Next**.

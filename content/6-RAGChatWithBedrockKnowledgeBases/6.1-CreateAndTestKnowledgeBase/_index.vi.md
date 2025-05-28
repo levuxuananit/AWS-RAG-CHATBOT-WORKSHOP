@@ -17,7 +17,7 @@ pre : " <b> 6.1 </b> "
 7. Chọn Amazon S3 làm nguồn dữ liệu.
 8. Chọn **Kế tiếp**.
 9. Chọn **Duyệt S3**.
-![6.3-SelectS3](/6.RAGChatWithBedrockKnowledgeBases/6.3-SelectS3.png)
+![6.3-SelectS3](/images/6.RAGChatWithBedrockKnowledgeBases/6.3-SelectS3.png)
 10.  Chọn thư mục ```sample-documents```.
 12.  Giữ nguyên cấu hình phân đoạn mặc định.
 13.  Chọn **Kế tiếp**.

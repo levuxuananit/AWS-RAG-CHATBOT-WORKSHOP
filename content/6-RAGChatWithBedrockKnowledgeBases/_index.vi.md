@@ -10,7 +10,7 @@ pre : " <b> 6. </b> "
 
 Cơ sở tri thức Amazon Bedrock dựa vào hai thành phần chính để cho phép truy xuất hiệu quả thông tin có liên quan: **nhúng** và **kho lưu trữ vector** . Các thành phần này hoạt động cùng nhau để chuyển đổi dữ liệu văn bản thành định dạng có thể tìm kiếm và truy xuất nhanh chóng dựa trên sự tương đồng về mặt ngữ nghĩa.
 
--**Nhúng** là các biểu diễn số của văn bản nắm bắt ý nghĩa ngữ nghĩa. Trong Amazon Bedrock, các mô hình nhúng như Amazon Titan Embeddings hoặc Cohere Embed chuyển đổi văn bản từ tài liệu của bạn thành các vectơ dày đặc. Quá trình này cho phép so sánh và truy xuất hiệu quả nội dung có ngữ nghĩa tương tự, tạo thành nền tảng cho sự hiểu biết của cơ sở kiến ​​thức về dữ liệu của bạn.
+- **Nhúng** là các biểu diễn số của văn bản nắm bắt ý nghĩa ngữ nghĩa. Trong Amazon Bedrock, các mô hình nhúng như Amazon Titan Embeddings hoặc Cohere Embed chuyển đổi văn bản từ tài liệu của bạn thành các vectơ dày đặc. Quá trình này cho phép so sánh và truy xuất hiệu quả nội dung có ngữ nghĩa tương tự, tạo thành nền tảng cho sự hiểu biết của cơ sở kiến ​​thức về dữ liệu của bạn.
 
 - **Kho dữ liệu vector** là cơ sở dữ liệu chuyên biệt được thiết kế để lập chỉ mục và truy vấn các nhúng vector này một cách hiệu quả. Amazon Bedrock cung cấp các tùy chọn như OpenSearch Serverless do Amazon quản lý hoặc các giải pháp tùy chỉnh như Amazon Aurora PostgreSQL với pgvector. Các kho dữ liệu này cho phép tìm kiếm tương tự nhanh chóng, cho phép hệ thống nhanh chóng xác định và truy xuất thông tin có liên quan nhất khi phản hồi các truy vấn, do đó nâng cao hiệu suất của quy trình làm việc Retrieval Augmented Generation (RAG).
 
