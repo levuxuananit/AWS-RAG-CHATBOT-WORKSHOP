@@ -1,10 +1,7 @@
-
----
-
 # PERSONALIZED PDF CHATBOTS WITH AMAZON BEDROCK
+---
 ### Solution Architecture
-![1.AWSServerlessChatbotArchitecture](static\images\1.Introduction\1.AWSServerlessChatbotArchitecture.png)
-
+![1.AWSServerlessChatbotArchitecture](static/images/1.Introduction/1.AWSServerlessChatbotArchitecture.png)
 
 ### Components
 1. User: End user of the chatbot
