@@ -1,9 +1,9 @@
 # PERSONALIZED PDF CHATBOTS WITH AMAZON BEDROCK
 ---
-### Solution Architecture
+## Solution Architecture
 ![1.AWSServerlessChatbotArchitecture](static/images/1.Introduction/1.AWSServerlessChatbotArchitecture.png)
 
-### Components
+## Components
 1. User: End user of the chatbot
 2. Web UI: User interface for chatbot interactions
 3. AWS Amplify: Manages the UI and authentication, specifically using Vue.js
@@ -17,14 +17,14 @@
 11. Amazon OpenSearch: Vector database and search engine for efficient similarity searching
 12. Amazon Cognito: User authentication and authorization
 
-### Workflow
+## Workflow
 1. Users interact with the Web UI
 2. Requests are routed via API Gateway to Lambda functions
 3. Lambda functions use Bedrock to access LLM, and RAG operations, and interact with Knowledge Bases
 4. Knowledge is retrieved from Knowledge Bases, S3, OpenSearch
 5. The system combines different types of documents to enhance Knowledge Bases
 
-### Key Features
+## Key Features
 1. Scalable, serverless architecture
 2. Leverages multiple LLM models including Claude 3, Mistral, and Llama
 3. Combine Custom Knowledge Bases with Personal Data
@@ -32,10 +32,10 @@
 5. Flexible Document Search and Collection
 6. Front-end Built with Modern Frameworks (Vue.js) Using AWS Amplify
 
-### Summary
+## Summary
 This architecture allows the AI-powered chatbot solution to scale on demand while providing intelligent responses based on both LLM knowledge and personal data (often confidential corporate or personal data). Using Vue.js with AWS Amplify ensures a responsive and efficient user interface.
 
-### Workshop
+## Workshop
 🔻Workshop: https://levuxuananit.github.io/AWS-RAG-CHATBOT-WORKSHOP/
 
 ---
