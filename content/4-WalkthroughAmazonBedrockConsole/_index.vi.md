@@ -10,3 +10,15 @@ Sử dụng Amazon Bedrock để xây dựng và mở rộng các ứng dụng A
 
 ### Kích hoạt quyền truy cập mô hình
 1. Mở [bảng điều khiển Amazon Bedrock](https://console.aws.amazon.com/bedrock/home).
+2. Ở góc trên bên trái của bảng điều khiển Amazon Bedrock, hãy chọn biểu tượng **menu**. Trong ngăn điều hướng, hãy chọn **Model access**, rồi chọn **Enable specific models**.
+![3.3-ModifyModelAccess](/images/3.connect/3.3-ModifyModelAccess.png)
+3. Chọn các LLMs sử dụng:
+- Embed English
+- Claude 3.5 Sonnet
+- Claude 3 Haiku
+- Claude 3 Opus
+- Llama 3.1 8B Instruct
+- Mistral 7B Instruct
+![3.4-SelectFM1](/images/3.connect/3.4-SelectFM1.png)
+![3.5-SelectFM2](/images/3.connect/3.5-SelectFM2.png)
+4. Chọn **Nộp**.
