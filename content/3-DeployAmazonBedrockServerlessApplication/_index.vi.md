@@ -49,7 +49,7 @@ Trong quá trình amplify add host, bạn sẽ được nhắc lựa chọn hai 
 {{%/notice%}}
 
 3. Sau khi hoàn tất, bạn sẽ thấy hình ảnh sau.
-![3.2-CopyLink](/images/3.DeployAmazonBedrockServerlessApplicationt/3.2-CopyLink.png)
+![3.2-CopyLink](/images/3.DeployAmazonBedrockServerlessApplication/3.2-CopyLink.png)
 4. Sao chép và lưu trữ giá trị cho **url amplifyapp**, **user_id** và **password** trong trình soạn thảo văn bản. Bạn sử dụng thông tin này để đăng nhập vào ứng dụng.
 
 ### Thiết lập biến môi trường cho lệnh xây dựng SAM và Amplify
