@@ -18,7 +18,7 @@ export CFNStackName=chatbot-startup-stack
 export S3BucketName=$(aws cloudformation describe-stacks --stack-name ${CFNStackName} --query "Stacks[0].Outputs[?OutputKey=='S3BucketName'].OutputValue" --output text)
 echo "S3 bucket name: $S3BucketName"
 ```
-![3.1-BuildChatBot](/images/3.connect/3.1-BuildChatBot.png)
+![3.1-BuildChatBot](/images/3.DeployAmazonBedrockServerlessApplication/3.1-BuildChatBot.png)
 - **CFNStackName**: Được tham chiếu sau khi tương tác với các tài nguyên được cung cấp như một phần của triển khai ứng dụng.
 - **S3BucketName**: Được sử dụng trong suốt hội thảo để lưu trữ nhiều nguồn dữ liệu và cơ sở kiến ​​thức cần thiết cho ứng dụng. Các dịch vụ phụ trợ sẽ tương tác với nội dung của thùng S3 này để truy xuất và xử lý thông tin cần thiết cho chức năng của ứng dụng. Đảm bảo biến môi trường S3BucketName được thiết lập đúng sẽ cho phép các tác vụ hội thảo truy cập và sử dụng liền mạch dữ liệu cần thiết được lưu trữ trong vị trí trung tâm này.
   
@@ -50,10 +50,10 @@ chmod +x startup.sh
 
 {{%notice note%}}
 Trong quá trình amplify add host, bạn sẽ được nhắc lựa chọn hai lần, hãy giữ nguyên lựa chọn mặc định và nhấn **Enter**. Mặc định là tùy chọn đầu tiên **Hosting with Amplify Console** (Hosting được quản lý với tên miền tùy chỉnh, Triển khai liên tục) và tùy chọn thứ 2 là Triển khai thủ công.
-{{%/notice%}}
+{{%/notice%}
 
 3. Sau khi hoàn tất, bạn sẽ thấy hình ảnh sau.
-![3.2-CopyLink](/images/3.connect/3.2-CopyLink.png)
+![3.2-CopyLink](/images/3.DeployAmazonBedrockServerlessApplicationt/3.2-CopyLink.png)
 4. Sao chép và lưu trữ giá trị cho **url amplifyapp**, **user_id** và **password** trong trình soạn thảo văn bản. Bạn sử dụng thông tin này để đăng nhập vào ứng dụng.
 
 ### Thiết lập biến môi trường cho lệnh xây dựng SAM và Amplify

@@ -18,7 +18,7 @@ export CFNStackName=chatbot-startup-stack
 export S3BucketName=$(aws cloudformation describe-stacks --stack-name ${CFNStackName} --query "Stacks[0].Outputs[?OutputKey=='S3BucketName'].OutputValue" --output text)
 echo "S3 bucket name: $S3BucketName"
 ```
-![3.1-BuildChatBot](/images/3.connect/3.1-BuildChatBot.png)
+![3.1-BuildChatBot](/images/3.DeployAmazonBedrockServerlessApplication/3.1-BuildChatBot.png)
 - **CFNStackName**: Referenced after interacting with resources provided as part of the application deployment.
 - **S3BucketName**: Used throughout the workshop to store various data sources and knowledge bases required by the application. Backend services will interact with the contents of this S3 bucket to retrieve and process information required for the application to function. Ensuring that the S3BucketName environment variable is set correctly will allow workshop tasks to seamlessly access and use the required data stored in this central location.
 
@@ -53,7 +53,7 @@ During the amplify add host process, you will be prompted to select twice, keep 
 {{%/notice%}}
 
 3. Once completed, you will see the following image.
-![3.2-CopyLink](/images/3.connect/3.2-CopyLink.png)
+![3.2-CopyLink](/images/3.DeployAmazonBedrockServerlessApplication/3.2-CopyLink.png)
 4. Copy and save the values ​​for **amplifyapp url**, **user_id** and **password** in a text editor. You will use this information to log in to the application.
 
 ### Set environment variables for SAM and Amplify build commands
